@@ -52,5 +52,5 @@ for quizNum in range(2):
             # Write the answer key to a file.
             answerKeyFile.write('%s. %s\n' % (questionNum + 1, 'ABCD'[answerOptions.index(correctAnswer)]))
 
-quizFile.close()
-answerKeyFile.close()
+    quizFile.close()
+    answerKeyFile.close()
